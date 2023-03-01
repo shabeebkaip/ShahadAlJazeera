@@ -25,7 +25,7 @@ const index = () => {
             className="w-80 h-80 object-cover shadow-lg"
           />
           <h2 className="text-yellow-500  font-semibold">Cappuccino</h2>
-          <p>AED 25.00</p>
+          <p className="text-yellow-500 font-semibold">AED 25.00</p>
         </div>
         <div className="flex flex-col gap-2 items-center">
         <Image
@@ -34,7 +34,7 @@ const index = () => {
           className="w-80 h-80 object-cover shadow-lg"
         />
         <h2 className="text-yellow-500  font-semibold">Cappuccino</h2>
-        <p>AED 25.00</p>
+        <p className="text-yellow-500 font-semibold">AED 25.00</p>
         </div>
       </div>
 
@@ -46,7 +46,7 @@ const index = () => {
             className="w-80 h-80 object-cover shadow-lg"
           />
           <h2 className="text-yellow-500  font-semibold">Cappuccino</h2>
-          <p>AED 25.00</p>
+          <p className="text-yellow-500 font-semibold">AED 25.00</p>
         </div>
         <div className="flex flex-col gap-2 items-center">
         <Image
@@ -55,7 +55,7 @@ const index = () => {
           className="w-80 h-80 object-cover shadow-lg"
         />
          <h2 className="text-yellow-500  font-semibold">Cappuccino</h2>
-          <p>AED 25.00</p>
+         <p className="text-yellow-500 font-semibold">AED 25.00</p>
           </div>
       </div>
     </div>
