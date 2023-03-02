@@ -7,7 +7,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .background {
-  background-image: url("../assets/bg.png");
-  height: max-content;
+  
+ 
   font-family: "Montserrat", sans-serif;
+}
+
+div {
+  background-color: rgba(35, 35, 35, 255);
 }

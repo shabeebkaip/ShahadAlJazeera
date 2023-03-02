@@ -13,6 +13,10 @@ module.exports = {
     fontFamily: {
       sans: ['Montserrat', 'sans-serif'],
     },
+
+    color: {
+      customGray: '#232323'
+    },
     
     extend: {},
   },

@@ -10,55 +10,64 @@ import img4 from "../assets/SAJ Hot Drink 006.jpg";
 
 const index = () => {
   return (
-    <div className="bg- h-screen p-4  ">
-      <div className="flex items-center flex-col justify-center">
-        <Image src={logo} alt="jazeera" />
-        <h1 className="text-yellow-500 font-light uppercase font-sans">
-          Hot Drinks
-        </h1>
-      </div>
-      <div className="grid grid-cols-2 gap-6    ">
-        <div className="flex flex-col gap-2 items-center">
-          <Image
-            src={img1}
-            alt="img1"
-            className="w-80 h-80 object-cover shadow-lg"
-          />
-          <h2 className="text-yellow-500  font-semibold">Cappuccino</h2>
-          <p className="text-yellow-500 font-semibold">AED 25.00</p>
+    <div className="h-full p-4 bg-customGray">
+    <div className="flex items-center justify-center flex-col py-4">
+      <Image src={logo} alt="jazeera" />
+      <h1 className="text-yellow-500 font-light uppercase font-sans text-center">
+        Hot Drinks
+      </h1>
+    </div>
+  
+    <div className="grid grid-cols-2 gap-5">
+      <div className="flex flex-col gap-2 items-center">
+        <Image
+          src={img1}
+          alt="img1"
+          className="object-cover shadow-2xl w-64 h-48 aspect-w-1 aspect-h-1"
+        />
+        <div className="text-yellow-500 font-semibold font-sans">
+          <h2>Cafe Latte</h2>
+          <p>AED 25.00</p>
         </div>
-        <div className="flex flex-col gap-2 items-center">
+      </div>
+      <div className="flex flex-col gap-2 items-center">
         <Image
           src={img2}
-          alt="img3"
-          className="w-80 h-80 object-cover shadow-lg"
+          alt="img2"
+          className="object-cover shadow-lg w-64 h-48 aspect-w-1 aspect-h-1"
         />
-        <h2 className="text-yellow-500  font-semibold">Cappuccino</h2>
-        <p className="text-yellow-500 font-semibold">AED 25.00</p>
+        <div className="text-yellow-500 font-semibold font-sans">
+          <h2>Cappuccino</h2>
+          <p className="flex justify-center">AED 25.00</p>
         </div>
-      </div>
-
-      <div className="grid grid-cols-2 gap-6    ">
-        <div className="flex flex-col gap-2 items-center">
-          <Image
-            src={img3}
-            alt="img1"
-            className="w-80 h-80 object-cover shadow-lg"
-          />
-          <h2 className="text-yellow-500  font-semibold">Cappuccino</h2>
-          <p className="text-yellow-500 font-semibold">AED 25.00</p>
-        </div>
-        <div className="flex flex-col gap-2 items-center">
-        <Image
-          src={img4}
-          alt="img3"
-          className="w-80 h-80 object-cover shadow-lg"
-        />
-         <h2 className="text-yellow-500  font-semibold">Cappuccino</h2>
-         <p className="text-yellow-500 font-semibold">AED 25.00</p>
-          </div>
       </div>
     </div>
+  
+    <div className="grid grid-cols-2 gap-5">
+      <div className="flex flex-col gap-2 items-center">
+        <Image
+          src={img3}
+          alt="img3"
+          className="object-cover shadow-lg gap-2 w-64 h-48 aspect-w-1 aspect-h-1"
+        />
+        <div className="text-yellow-500 font-semibold font-sans">
+          <h2>Flat White</h2>
+          <p>AED 25.00</p>
+        </div>
+      </div>
+      <div className="flex flex-col gap-2 items-center">
+        <Image
+          src={img4}
+          alt="img4"
+          className="object-cover shadow-lg w-64 h-48 aspect-w-1 aspect-h-1"
+        />
+        <div className="text-yellow-500 font-semibold font-sans">
+          <h2>Hot Pistachio Latte</h2>
+          <p className="flex justify-center">AED 25.00</p>
+        </div>
+      </div>
+    </div>
+  </div>
   );
 };
 
